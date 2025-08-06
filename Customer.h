@@ -1,7 +1,3 @@
-//
-// Created by sahil on 06/08/2025.
-//
-
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
@@ -9,8 +5,10 @@
 #include <vector>
 #include <iostream>
 
-class Customer {
+class Customer
+{
 public:
+
     // Default constructor
     Customer();
 
@@ -52,6 +50,8 @@ private:
     std::string name;
     std::string type;
     std::vector<int> purchaseNumbers;
+
 };
 
-#endif // CUSTOMER_H
+
+#endif //CUSTOMER_H
