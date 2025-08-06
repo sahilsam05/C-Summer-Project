@@ -9,10 +9,8 @@
 #include <vector>
 #include <iostream>
 
-class Customer
-{
+class Customer {
 public:
-
     // Default constructor
     Customer();
 
@@ -54,8 +52,6 @@ private:
     std::string name;
     std::string type;
     std::vector<int> purchaseNumbers;
-
 };
 
-
-#endif //CUSTOMER_H
+#endif // CUSTOMER_H
